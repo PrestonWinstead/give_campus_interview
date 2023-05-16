@@ -1,6 +1,9 @@
 I know this isn't the cleanest Ruby, but I wanted to push my solution through
 to something that really worked.
 
+First off, you'll have to update the path to the CSV file to where you have it stored
+locally. you can do this in both of the CSV reads in `build_leader_boards.rb`
+
 If you open the root directory and simply run `ruby build_leader_boards.rb`,
 then it should return something that looks like the following:
 
