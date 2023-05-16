@@ -11,11 +11,11 @@ then it should return something that looks like the following:
 {:campaign_id=>"20", :display=>[]}
 ```
 
-The campaign id is obviously the campaign that the leaderboard is associated with
-The `display` array is what should actually be displayed for that leader board.
-`team_supporting` corresponds to the "What team are you supporting?" column
-`donor_count` is the total number of unique donors to that area
-`raised_amt` corresponds to the "$Raised" column
+The campaign id is obviously the campaign that the leaderboard is associated with<br />
+The `display` array is what should actually be displayed for that leader board.<br />
+`team_supporting` corresponds to the "What team are you supporting?" column<br />
+`donor_count` is the total number of unique donors to that area<br />
+`raised_amt` corresponds to the "$Raised" column<br />
 
 I also noticed that there are some potential duplicate pieces of data between
 the two CSVs, such as Ken Erickson making identical donations in each of them.
